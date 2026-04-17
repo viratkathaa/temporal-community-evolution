@@ -97,7 +97,21 @@ betweenness centrality (k=200 sampling for n>200).
 | Diameter (LCC) | 6 | 10 | growing |
 | Degree assortativity | −0.18 | −0.08 | always disassortative |
 
-See `results/figures/02_*.png` for the full time series.
+![Network size over time](../results/figures/02_size.png)
+
+![Density over time](../results/figures/02_density.png)
+
+![Clustering over time](../results/figures/02_clustering.png)
+
+![Largest connected component over time](../results/figures/02_lcc_fraction.png)
+
+![Diameter and average path length](../results/figures/02_path_length.png)
+
+![Betweenness centrality](../results/figures/02_betweenness.png)
+
+![Degree assortativity](../results/figures/02_assortativity.png)
+
+![Degree distribution across time (CCDF, log-log)](../results/figures/02_degree_ccdf.png)
 
 ### 3.2 Interpretation
 
@@ -175,6 +189,12 @@ Out of **862 events** across 25 transitions (~34 per transition):
   over time.
 - Very few **continue** events (1.7%): a community that persists essentially
   unchanged from one quarter to the next is rare at this granularity.
+
+![Community count and modularity over time](../results/figures/03_communities_over_time.png)
+
+![Community event timeline (stacked)](../results/figures/03_event_timeline.png)
+
+![Total community events across all transitions](../results/figures/03_event_totals.png)
 
 Implementation: [`src/community.py`](../src/community.py),
 [`notebooks/03_communities.py`](../notebooks/03_communities.py).
@@ -254,6 +274,8 @@ counts are available but unused), (b) temporal edges as a feature via a TGN
 backbone, (c) a concatenated-MLP decoder instead of dot product, and
 (d) harder negative sampling focused on near-neighbors rather than uniform
 random pairs.
+
+![Link prediction: baselines vs GraphSAGE](../results/figures/04_lp_metrics.png)
 
 Implementation: [`src/link_prediction.py`](../src/link_prediction.py),
 [`notebooks/04_link_prediction.py`](../notebooks/04_link_prediction.py).

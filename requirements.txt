@@ -1,0 +1,12 @@
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+networkx>=3.2
+python-louvain>=0.16
+scikit-learn>=1.4
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.18
+dash>=2.16
+tqdm>=4.66
+requests>=2.31

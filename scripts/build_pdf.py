@@ -1,5 +1,7 @@
 """Build the final PDF report from report/final_report.md.
 
+done by ruchir
+
 Pipeline:
     markdown -> HTML (via `markdown` lib, tables + fenced code extensions)
                 -> PDF (via `xhtml2pdf.pisa`, pure Python, no LaTeX required)

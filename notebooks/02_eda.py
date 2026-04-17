@@ -1,5 +1,7 @@
 """Deliverable 2 — Exploratory network analysis across time.
 
+done by dhruv
+
 Computes per-snapshot metrics and writes:
     - results/tables/02_metrics.csv
     - results/figures/02_*.png

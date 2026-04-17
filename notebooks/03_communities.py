@@ -1,5 +1,7 @@
 """Deliverable 3 — Dynamic community detection + temporal event tracking.
 
+done by ruchir
+
 Writes:
     - results/tables/03_communities_summary.csv
     - results/tables/03_community_events.csv

@@ -1,5 +1,8 @@
 """Community detection per snapshot and temporal event tracking.
 
+done by ruchir
+
+
 Approach:
     1. Run Louvain modularity optimization on each snapshot independently.
     2. Match communities across consecutive snapshots via Jaccard overlap of

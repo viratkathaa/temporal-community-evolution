@@ -1,5 +1,7 @@
 """Deliverable 4 — Link prediction: baselines vs GraphSAGE.
 
+done by dhruv
+
 Writes:
     - results/tables/04_link_prediction.csv
     - results/figures/04_lp_metrics.png

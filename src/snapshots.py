@@ -1,4 +1,7 @@
-"""Build time-sliced graph snapshots from a temporal edge list."""
+"""Build time-sliced graph snapshots from a temporal edge list.
+
+done by virat
+"""
 from __future__ import annotations
 
 import pickle

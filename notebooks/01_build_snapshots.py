@@ -1,5 +1,7 @@
 """Deliverable 1 — download sx-mathoverflow and build quarterly snapshots.
 
+done by virat
+
 Run:
     python notebooks/01_build_snapshots.py
 """

@@ -2,8 +2,12 @@
 
 **Network Science — Group Project**
 
-**Team:** _fill in names_
-**Date:** _fill in submission date_
+**Team:**
+- Virat (2022578)
+- Dhruv Kumar (2023202)
+- Ruchir Bhatowa (2022419)
+
+**Date:** 2026-04-17
 
 ---
 

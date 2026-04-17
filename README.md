@@ -67,4 +67,6 @@ python dashboard/app.py                  # launches the interactive dashboard
 
 ## Team
 
-_Add group members here._
+- Virat (2022578)
+- Dhruv Kumar (2023202)
+- Ruchir Bhatowa (2022419)
